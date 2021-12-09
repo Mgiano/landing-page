@@ -1,0 +1,40 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }  
+  * {
+    box-sizing: border-box;
+  }
+nav {
+display: flex;
+justify-content: space-around;
+background-color: #1f2937;
+color: white;
+
+}
+
+.logo {
+   text-align: center; 
+   
+}
+ul {
+    list-style-type: none;
+    display: flex;
+   }
+
+.firstSlab{
+    background-color: #1f2937;
+    display:flex;
+}   
+
+.links {
+display:flex;
+gap: 10px;
+align-items:center;
+
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
