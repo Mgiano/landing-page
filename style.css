@@ -1,7 +1,10 @@
-html, body {
-    margin: 0;
-    padding: 0;
-  }  
+body {
+  background-color: #FFFFFF;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-family: 'Roboto', arial;
+}
   * {
     box-sizing: border-box;
   }
@@ -12,6 +15,11 @@ background-color: #1f2937;
 color: white;
 
 }
+.imagen{
+width: 400px;
+height:auto;
+
+}
 
 .logo {
    text-align: center; 
@@ -20,21 +28,44 @@ color: white;
 ul {
     list-style-type: none;
     display: flex;
+    gap:20px;
+    
    }
 
 .firstSlab{
-    background-color: #1f2937;
-    display:flex;
-}   
+  display: flex;
+  color: #F9FAF8;
+  background-color: #1F2937;
+  align-items: center;
+  justify-content: center;
+  padding: 90px;
+}
 
 .links {
+  
 display:flex;
-gap: 10px;
+
 align-items:center;
 
+}
+
+
+.left{
+display:flex;
+flex-direction: column;
+text-align: left;
+margin-right:45px;
+flex-basis:420px;
+}
+
+.left p {
+  opacity: 0.7;
 }
 
 a{
     text-decoration: none;
     color:white;
 }
+h1{padding:0;
+margin:0;}
+
