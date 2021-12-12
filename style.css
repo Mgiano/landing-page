@@ -48,7 +48,56 @@ display:flex;
 align-items:center;
 
 }
+.container {
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
 
+}
+.cuadritos{
+  display:flex;
+  flex-direction: row;
+  gap:30px;
+
+}
+.baby {
+flex: 1 1 auto;
+width: 200px;
+border-radius: 10px;
+border: 2px solid #3882F6;
+
+
+}
+#cajitaText{
+  max-width:200px;
+  
+  }
+
+#inspirational{
+  max-width: 800px;
+  text-align: justify;
+  font-size: 25px;
+  opacity: 0.7;
+
+}
+#signature{
+
+font-size: 20px;
+align-self:center;
+padding-left: 300px;
+
+}
+.thirdSlab {
+background-color:#E5E7EB;
+
+
+}
+
+.container h1 {
+  margin: 30px;
+}
 
 .left{
 display:flex;
