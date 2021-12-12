@@ -13,6 +13,7 @@ display: flex;
 justify-content: space-around;
 background-color: #1f2937;
 color: white;
+margin-top:0;
 
 }
 .imagen{
@@ -118,3 +119,56 @@ a{
 h1{padding:0;
 margin:0;}
 
+.footer {
+  background-color: #1F2937;
+  color: #fff;
+  font-family: 'Roboto', arial;
+  padding:20px;
+}
+.signs-button button {
+  color: #fff;
+  font-family: 'Roboto', arial;
+  border-color: #fff;
+  border-radius: 8px;
+  background-color: #3882F6;
+  padding: 5px 25px;
+  font-size: 15px;
+}
+.sign-up {
+  background-color: #3882F6 ;
+  margin: 50px 100px;
+  padding: 10px 80px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  border-color: none;
+  width: 800px;
+  
+}
+.sign-item {
+  flex: 1;
+}
+
+.signs-text {
+  text-align: left;
+}
+
+.signs-text p {
+  color: #fff;
+  opacity: 0.7;
+  width:500px;
+}
+
+h3 {
+  width:300px;
+  color: #fff;
+  font-family: 'Roboto', arial;
+  padding: 0;
+  margin: 30px 0px 0px 50px;
+}
+.fourthSlab{
+display:flex;
+justify-content: center;
+align-items: center;
+
+}
